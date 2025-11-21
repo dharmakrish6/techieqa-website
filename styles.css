@@ -155,7 +155,7 @@ body {
 
 .btn-secondary:hover {
     background: #2ccd70;
-    color: white;
+    color: rgb(2, 2, 2);
 }
 
 .hero-image {
