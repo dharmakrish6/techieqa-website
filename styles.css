@@ -4,10 +4,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-.site-logo {
-    height: 50px;
-    width: 200px;
-}
 
 body {
     font-family: 'Arial', sans-serif;
@@ -19,6 +15,10 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+}
+.site-logo {
+    height: 50px;
+    width: 200px;
 }
 
 /* Header Styles */
@@ -45,7 +45,7 @@ body {
 }
 
 .logo h1 {
-    color: #007bff;
+    color: #2ccd70;
     font-size: 2rem;
     margin-bottom: 0;
 }
@@ -69,7 +69,7 @@ body {
 }
 
 .nav-menu a:hover {
-    color: #007bff;
+    color: #2ccd70;
 }
 
 .hamburger {
@@ -138,7 +138,7 @@ body {
 }
 
 .btn-primary {
-    background: #007bff;
+    background: #2ccd70;
     color: white;
 }
 
@@ -149,12 +149,12 @@ body {
 
 .btn-secondary {
     background: #fff;
-    color: #007bff;
-    border: 2px solid #007bff;
+    color: #2ccd70;
+    border: 2px solid #2ccd70;
 }
 
 .btn-secondary:hover {
-    background: #007bff;
+    background: #2ccd70;
     color: white;
 }
 
@@ -196,7 +196,7 @@ body {
 
 .service-card i {
     font-size: 3rem;
-    color: #007bff;
+    color: #2ccd70;
     margin-bottom: 1rem;
 }
 
@@ -214,7 +214,7 @@ body {
 /* Training Section */
 .training {
     padding: 80px 0;
-    background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+    background: linear-gradient(135deg, #2ccd70 0%, #0056b3 100%);
     color: white;
 }
 
@@ -316,7 +316,7 @@ body {
 
 .recruitment-card i {
     font-size: 3rem;
-    color: #28a745;
+    color: #2ccd70;
     margin-bottom: 1rem;
 }
 
@@ -361,7 +361,7 @@ body {
 .about-text h3 {
     font-size: 1.3rem;
     margin-bottom: 1rem;
-    color: #007bff;
+    color: #2ccd70;
 }
 
 .about-text p {
@@ -377,7 +377,7 @@ body {
 }
 
 .tech-item {
-    background: #007bff;
+    background: #2ccd70;
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 20px;
@@ -424,12 +424,12 @@ body {
 }
 
 .contact-item i {
-    color: #007bff;
+    color: #2ccd70;
     font-size: 1.2rem;
 }
 
 .contact-item a {
-    color: #007bff;
+    color: #2ccd70;
     text-decoration: none;
 }
 
@@ -459,7 +459,7 @@ body {
 .form-group select:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: #007bff;
+    border-color: #2ccd70;
 }
 
 /* Footer */
@@ -479,7 +479,7 @@ body {
 .footer-section h3,
 .footer-section h4 {
     margin-bottom: 1rem;
-    color: #007bff;
+    color: #2ccd70;
 }
 
 .footer-section ul {
@@ -497,7 +497,7 @@ body {
 }
 
 .footer-section ul li a:hover {
-    color: #007bff;
+    color: #2ccd70;
 }
 
 .footer-bottom {
