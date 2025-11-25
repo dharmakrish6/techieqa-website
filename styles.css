@@ -139,11 +139,11 @@ body {
 
 .btn-primary {
     background: #2ccd70;
-    color: rgb(9, 0, 0);
+    color: white;
 }
 
 .btn-primary:hover {
-    background: #84F1B1;
+    background: #036029;
     transform: translateY(-2px);
 }
 
@@ -155,7 +155,7 @@ body {
 
 .btn-secondary:hover {
     background: #2ccd70;
-    color: rgb(2, 2, 2);
+    color: white;
 }
 
 .hero-image {
@@ -378,7 +378,7 @@ body {
 
 .tech-item {
     background: #2ccd70;
-    color: rgb(9, 9, 9);
+    color: white;
     padding: 0.5rem 1rem;
     border-radius: 20px;
     font-size: 0.9rem;
