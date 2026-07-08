@@ -1,206 +1,332 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Privacy Policy - Tic Tac Toe (TechieQA</title>
-<style>
-  :root {
-    --gold: #d4a72c;
-    --dark: #1a1a1a;
-    --text: #2b2b2b;
-    --bg: #fafafa;
-    --card: #ffffff;
-    --muted: #6b6b6b;
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    background: var(--bg);
-    color: var(--text);
-    line-height: 1.65;
-  }
-  .header {
-    background: linear-gradient(135deg, #1a1a1a 0%, #2b2b2b 100%);
-    padding: 48px 24px 36px;
-    text-align: center;
-    color: #fff;
-    border-bottom: 4px solid var(--gold);
-  }
-  .header h1 {
-    margin: 0 0 8px;
-    font-size: 1.9rem;
-    letter-spacing: 0.3px;
-  }
-  .header p {
-    margin: 0;
-    color: #cfcfcf;
-    font-size: 0.95rem;
-  }
-  .container {
-    max-width: 760px;
-    margin: -20px auto 60px;
-    padding: 0 20px;
-  }
-  .card {
-    background: var(--card);
-    border-radius: 12px;
-    box-shadow: 0 4px 18px rgba(0,0,0,0.08);
-    padding: 36px 40px;
-  }
-  .meta {
-    font-size: 0.9rem;
-    color: var(--muted);
-    margin-bottom: 28px;
-    padding-bottom: 16px;
-    border-bottom: 1px solid #eee;
-  }
-  h2 {
-    font-size: 1.15rem;
-    margin-top: 34px;
-    margin-bottom: 10px;
-    color: var(--dark);
-    border-left: 4px solid var(--gold);
-    padding-left: 10px;
-  }
-  p, li { font-size: 0.98rem; color: #3a3a3a; }
-  ul { padding-left: 22px; }
-  a { color: #a8791f; text-decoration: none; }
-  a:hover { text-decoration: underline; }
-  .footer-note {
-    margin-top: 40px;
-    font-size: 0.85rem;
-    color: var(--muted);
-    text-align: center;
-  }
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 14px 0;
-    font-size: 0.92rem;
-  }
-  th, td {
-    text-align: left;
-    padding: 8px 10px;
-    border: 1px solid #e5e5e5;
-  }
-  th { background: #f5f0e2; color: var(--dark); }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechieQA - Software Services: Web, Mobile, Marketing, Testing & Training</title>
+    <meta name="description" content="Software services: web & mobile development, digital marketing, software testing, recruitment and technical training for businesses and individuals.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-
-<div class="header">
-  <h1>Privacy Policy</h1>
-  <p>Tic Tac Toe &mdash; by TechieQA</p>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+    <img src="assets/Logo.svg" alt="TechieQA Logo" class="site-logo">
+    
 </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#training">Training</a></li>
+                    <li><a href="#recruitment">Recruitment</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-<div class="container">
-  <div class="card">
-    <div class="meta">
-      <strong>App:</strong> Tic Tac Toe<br>
-      <strong>Package ID:</strong> com.techieqa.tictactoe<br>
-      <strong>Play Store:</strong> <a href="https://play.google.com/store/apps/details?id=com.techieqa.tictactoe" target="_blank" rel="noopener">View on Google Play</a><br>
-      <strong>Last updated:</strong> July 7, 2026
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>End-to-end Software Services for Modern Businesses</h1>
+                <p>We provide web & mobile development, digital marketing, software testing, recruitment and technical training to help your product and team grow.</p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary">Our Services</a>
+                    <a href="https://www.youtube.com/c/TechieQA" class="btn btn-secondary" target="_blank">
+                        <i class="fab fa-youtube"></i> Watch Tutorials
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <i class="fas fa-briefcase" style="font-size: 200px; color: #2ccd70;"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Web Design & Development</h3>
+                    <p>Responsive websites, CMS integrations, e-commerce and custom web apps built with modern frameworks.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Mobile App Development</h3>
+                    <p>Native and cross-platform mobile apps (iOS & Android) focused on performance and great UX.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-bullhorn"></i>
+                    <h3>Digital Marketing</h3>
+                    <p>SEO, paid ads, social media and content strategies to increase visibility and drive conversions.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-vials"></i>
+                    <h3>Software Testing Services</h3>
+                    <p>Manual, automation, API and performance testing to ensure reliability and quality before release.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-user-tie"></i>
+                    <h3>Recruitment Services</h3>
+                    <p>Technical hiring and talent sourcing to help you build skilled engineering and QA teams.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <h3>Technical Training</h3>
+                    <p>Hands-on training programs for developers, testers and technical staff to upskill your team.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<section id="portfolio" class="portfolio">
+    <div class="container">
+        <h2>Our App Portfolio</h2>
+        <p class="section-subtitle">Explore some of our published mobile applications on the Google Play Store</p>
+        
+        <div class="portfolio-grid">
+            <div class="portfolio-card">
+                <div class="app-icon-wrapper">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="portfolio-info">
+                    <span class="app-category">Lifestyle & Utilities</span>
+                    <h3>Daily Price - Veg Fuel Gold</h3>
+                    <p>A real-time price tracking application delivering live wholesale market data for commodities, vegetables, precious metals, and fuel metrics across Indian cities.</p>
+                    <div class="app-features">
+                        <span><i class="fas fa-bolt"></i> Live Data Caching</span>
+                        <span><i class="fas fa-search"></i> Smart Search</span>
+                    </div>
+                    <a href="https://play.google.com/store/apps/details?id=com.techieqa.pricemarket" class="btn-app-store" target="_blank">
+                        <i class="fab fa-google-play"></i> View on Play Store
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio-card">
+                <div class="app-icon-wrapper">
+                    <i class="fas fa-book-open"></i>
+                </div>
+                <div class="portfolio-info">
+                    <span class="app-category">Books & Reference</span>
+                    <h3>Tamil Books and Radio</h3>
+                    <p>A multimedia audio streaming platform featuring an interactive shelf architecture for books, integrated media players, and synchronized background radio playlists.</p>
+                    <div class="app-features">
+                        <span><i class="fas fa-headphones"></i> Audio Streaming</span>
+                        <span><i class="fas fa-play-circle"></i> Media Player</span>
+                    </div>
+                    <a href="https://play.google.com/store/apps/details?id=com.techieqa.freeaudiobooks" class="btn-app-store" target="_blank">
+                        <i class="fab fa-google-play"></i> View on Play Store
+                    </a>
+                </div>
+            </div>
+
+            <div class="portfolio-card">
+                <div class="app-icon-wrapper">
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div class="portfolio-info">
+                    <span class="app-category">Games / Board</span>
+                    <h3>Tic Tac Toe - Play with AI</h3>
+                    <p>A classic logic application featuring custom matrix configurations (3x3, 4x4, 5x5) powered by localized computational AI difficulty engines and adaptive algorithmic models.</p>
+                    <div class="app-features">
+                        <span><i class="fas fa-brain"></i> Adaptive AI</span>
+                        <span><i class="fas fa-th"></i> Multi-Grid UI</span>
+                    </div>
+                    <a href="https://play.google.com/store/apps/details?id=com.techieqa.tictactoe" class="btn-app-store" target="_blank">
+                        <i class="fab fa-google-play"></i> View on Play Store
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio-cta">
+            <h3>Have an App Idea?</h3>
+            <p>From initial architectures to final Play Store and App Store production deployment, we turn concepts into performance-driven mobile solutions.</p>
+            <a href="https://play.google.com/store/apps/developer?id=TechieQA+Software+Private+Limited" class="btn btn-secondary" target="_blank">
+                <i class="fas fa-external-link-alt"></i> Browse Complete Developer Profile
+            </a>
+        </div>
     </div>
+</section>
 
-    <p>
-      TechieQA Software Private Ltd. ("we", "our", or "us") built the Tic Tac Toe app as a free, ad-supported game.
-      This Privacy Policy explains what information the app does and does not collect, and how third-party
-      services used within the app (such as advertising) may handle data. By using the app, you agree to
-      the practices described in this policy.
-    </p>
+    <!-- Training Section -->
+    <section id="training" class="training">
+        <div class="container">
+            <h2>Technical Training & Workshops</h2>
+            <div class="training-content">
+                <div class="training-info">
+                    <h3>Hands-on Training Programs</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Full-stack web development</li>
+                        <li><i class="fas fa-check"></i> Mobile app development (React Native / Flutter / Native)</li>
+                        <li><i class="fas fa-check"></i> Test automation and QA best practices</li>
+                        <li><i class="fas fa-check"></i> API testing and performance tuning</li>
+                        <li><i class="fas fa-check"></i> DevOps basics and CI/CD workflows</li>
+                        <li><i class="fas fa-check"></i> Technical interview preparation for engineers and testers</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary">Enroll Now</a>
+                </div>
+                <div class="youtube-section">
+                    <h3>Free & Premium Learning Resources</h3>
+                    <p>Explore tutorials, sample projects and workshop recordings to boost your skills.</p>
+                    <a href="https://www.youtube.com/c/TechieQA" class="youtube-btn" target="_blank">
+                        <i class="fab fa-youtube"></i> Visit TechieQA Channel
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <h2>1. Information We Collect</h2>
-    <p>
-      Tic Tac Toe does not require account creation and does not collect, store, or transmit any personally
-      identifiable information (such as your name, email address, or phone number). Gameplay data (such as
-      scores or game progress, if applicable) is stored only locally on your device and is never sent to us
-      or to any external server.
-    </p>
+    <!-- Recruitment Section -->
+    <section id="recruitment" class="recruitment">
+        <div class="container">
+            <h2>QA Recruitment Services</h2>
+            <div class="recruitment-grid">
+                <div class="recruitment-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Technical Interviews</h3>
+                    <p>Expert technical assessment beyond keyword matching, ensuring quality candidate evaluation</p>
+                </div>
+                <div class="recruitment-card">
+                    <i class="fas fa-search"></i>
+                    <h3>Candidate Sourcing</h3>
+                    <p>Specialized QA talent acquisition for automation testing, mobile testing, and performance testing roles</p>
+                </div>
+                <div class="recruitment-card">
+                    <i class="fas fa-handshake"></i>
+                    <h3>HR Consultation</h3>
+                    <p>Complete recruitment solutions for HR managers seeking quality assurance professionals</p>
+                </div>
+            </div>
+            <div class="recruitment-cta">
+                <h3>Partner with Us for Quality Talent</h3>
+                <p>Let our expertise in software testing help you find the right QA professionals for your team</p>
+                <a href="#contact" class="btn btn-primary">Get Started</a>
+            </div>
+        </div>
+    </section>
 
-    <h2>2. Advertising (Google AdMob)</h2>
-    <p>
-      The app displays advertisements through <strong>Google AdMob</strong>, a third-party advertising service
-      provided by Google. To deliver and personalize ads, AdMob and its partners may automatically collect
-      certain information such as:
-    </p>
-    <ul>
-      <li>Device identifiers (e.g. Advertising ID)</li>
-      <li>IP address and approximate location</li>
-      <li>Device type, operating system, and app usage data</li>
-      <li>Ad interaction data (impressions, clicks)</li>
-    </ul>
-    <p>
-      This data is collected and processed by Google in accordance with Google's own privacy policies, not
-      by us directly. We do not have access to or control over the specific data AdMob collects.
-    </p>
-    <table>
-      <tr><th>Service</th><th>Purpose</th><th>Privacy Policy</th></tr>
-      <tr>
-        <td>Google AdMob</td>
-        <td>Displaying in-app advertisements</td>
-        <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></td>
-      </tr>
-      <tr>
-        <td>Google Play Services</td>
-        <td>App distribution &amp; core Android services</td>
-        <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></td>
-      </tr>
-    </table>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About TechieQA</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Industry Expertise</h3>
+                    <p>TechieQA brings extensive experience from automotive industry testing, specializing in infotainment systems, Android Auto, and mobile application quality assurance. Our team combines hands-on testing experience with modern automation frameworks.</p>
 
-    <h2>3. Ad Personalization Choices</h2>
-    <p>
-      You can control ad personalization at any time through your device settings:
-    </p>
-    <ul>
-      <li><strong>Android:</strong> Settings &rarr; Google &rarr; Ads &rarr; Opt out of Ads Personalization</li>
-      <li>You may also reset your Advertising ID from the same settings menu.</li>
-    </ul>
+                    <h3>Our Approach</h3>
+                    <p>We focus on practical, real-world testing scenarios derived from actual industry experience. Our training programs and recruitment services are designed to bridge the gap between theoretical knowledge and practical application.</p>
 
-    <h2>4. Children's Privacy</h2>
-    <p>
-      Tic Tac Toe is suitable for a general audience and does not knowingly collect personal information from
-      children. If the app is used by children, ads served may be limited or adjusted based on Google's
-      policies for child-directed treatment where applicable. Parents who believe their child has provided
-      personal information can contact us using the details below, and we will take appropriate steps to
-      address the concern.
-    </p>
+                    <h3>Technology Stack</h3>
+                    <div class="tech-stack">
+                        <span class="tech-item">Cypress</span>
+                        <span class="tech-item">Selenium</span>
+                        <span class="tech-item">Postman</span>
+                        <span class="tech-item">JIRA</span>
+                        <span class="tech-item">Android Testing</span>
+                        <span class="tech-item">API Testing</span>
+                        <span class="tech-item">Performance Testing</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <h2>5. Data Security</h2>
-    <p>
-      Since the app does not collect or transmit personal data to us, there is no server-side storage of user
-      data under our control. Any data handled by third-party services (like AdMob) is secured according to
-      their respective security practices.
-    </p>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Ready to Start?</h3>
+                    <p>Contact us for training programs, recruitment services, or QA consultation</p>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>jobs@techieqa.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-youtube"></i>
+                        <a href="https://www.youtube.com/c/TechieQA" target="_blank">TechieQA YouTube Channel</a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <select name="service" required>
+                                <option value="">Select Service</option>
+                                <option value="web">Web Design & Development</option>
+                                <option value="mobile">Mobile App Development</option>
+                                <option value="marketing">Digital Marketing</option>
+                                <option value="testing">Software Testing Services</option>
+                                <option value="recruitment">Recruitment Services</option>
+                                <option value="training">Technical Training</option>
+                            </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
 
-    <h2>6. Third-Party Links</h2>
-    <p>
-      The app may contain links to external sites (such as our developer page or social channels). We are not
-      responsible for the content or privacy practices of any third-party sites linked from the app.
-    </p>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                        <h3>TechieQA</h3>
+                        <p>Software services: web & mobile development, digital marketing, testing, recruitment and training.</p>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#services">Web Design & Development</a></li>
+                            <li><a href="#services">Mobile App Development</a></li>
+                            <li><a href="#services">Digital Marketing</a></li>
+                            <li><a href="#services">Software Testing</a></li>
+                            <li><a href="#services">Recruitment</a></li>
+                            <li><a href="#training">Technical Training</a></li>
+                        </ul>
+                    </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="https://www.youtube.com/c/TechieQA" target="_blank">YouTube Tutorials</a></li>
+                        <li><a href="#training">Training Programs</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TechieQA. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 
-    <h2>7. Changes to This Privacy Policy</h2>
-    <p>
-      We may update this Privacy Policy from time to time. Any changes will be posted on this page along with
-      a revised "Last updated" date. Continued use of the app after changes are posted constitutes acceptance
-      of the updated policy.
-    </p>
-
-    <h2>8. Contact Us</h2>
-    <p>
-      If you have any questions or concerns about this Privacy Policy or the app's practices, please contact us at:
-    </p>
-    <ul>
-      <li><strong>Developer:</strong> TechieQA Software Private Ltd.</li>
-      <li><strong>Email:</strong> <a href="mailto:admin@techieqa.com">admin@techieqa.com</a></li>
-    </ul>
-
-    <div class="footer-note">
-      &copy; 2026 TechieQA. All rights reserved.
-    </div>
-  </div>
-</div>
-
+    <script src="script.js"></script>
 </body>
 </html>
